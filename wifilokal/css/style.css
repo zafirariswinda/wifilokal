@@ -18,23 +18,23 @@ h1 {
     font-size: 24px;
     color: white;
 }
-/* Reset CSS untuk margin dan padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Warna latar belakang */
-    color: #333; /* Warna teks */
+    background-color: #899BBD;
+    color: #ffffff;
 }
+
 
 h1 {
     text-align: center;
     margin: 20px 0;
-    color: #4CAF50; /* Warna judul */
+    color: #d3e2d4;
 }
 
 p {
@@ -44,29 +44,314 @@ p {
 }
 
 nav {
-    background-color: #4CAF50; /* Warna latar belakang navbar */
     padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none; /* Menghapus bullet points */
-    display: flex; /* Mengatur item menu secara horizontal */
-    justify-content: center; /* Memusatkan item */
+    list-style-type: none;
+    display: flex; 
+    justify-content: center; 
 }
 
 nav ul li {
-    margin: 0 15px; /* Spasi antar item */
+    margin: 0 15px;
 }
 
+
 nav ul li a {
-    color: white; /* Warna teks */
-    text-decoration: none; /* Menghapus garis bawah */
-    font-weight: bold; /* Menebalkan teks */
+    text-decoration: none;
+    font-weight: bold;
     padding: 10px 15px;
-    border-radius: 5px; /* Membulatkan sudut */
-    transition: background-color 0.3s; /* Efek transisi */
+    border-radius: 5px; 
+    transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #45a049; /* Warna saat hover */
+    background-color: #8bc7da;
+}
+
+#dashboard {
+    background-color: #f4f4f4;
+    color: #012970;
+}
+
+.navigator{
+    color: #012970;
+} */
+
+/* Styling umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #2f4b81;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3a5a9c;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* Header */
+.header {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #e6e9f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .search-bar input {
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Form Card */
+.form-card {
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-card input[type="date"],
+.form-card input[type="number"],
+.form-card textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-card textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Buttons */
+.form-card .btn-submit,
+.form-card .btn-reset {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-card .btn-submit {
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+}
+
+.form-card .btn-reset {
+    background-color: #6c757d;
+    color: white;
+}
+
+.form-card .btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.form-card .btn-reset:hover {
+    background-color: #5a6268;
+}
+
+/* Styling umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #2f4b81;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3a5a9c;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+/* Header */
+.header {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #e6e9f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .search-bar input {
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Title section */
+.title-section {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.title-section h2 {
+    color: #536dc4;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.title-section p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Button */
+.send-application-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.send-application-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.table-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h3 {
+    font-family: 'Arial Black', sans-serif;
+    color: #3a5a9c;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f6f8fc;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9fbfd;
+}
+
+/* Status badges */
+.status-hadir {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+}
+
+.status-tidak-hadir {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
 }
