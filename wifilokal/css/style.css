@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url('images/carwash.jpg') !important;
+    background: rgba(93, 99, 99, 1);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+}
+/* Reset CSS untuk margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #4CAF50; /* Warna judul */
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #4CAF50; /* Warna latar belakang navbar */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Menghapus bullet points */
+    display: flex; /* Mengatur item menu secara horizontal */
+    justify-content: center; /* Memusatkan item */
+}
+
+nav ul li {
+    margin: 0 15px; /* Spasi antar item */
+}
+
+nav ul li a {
+    color: white; /* Warna teks */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+    padding: 10px 15px;
+    border-radius: 5px; /* Membulatkan sudut */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Warna saat hover */
+}
